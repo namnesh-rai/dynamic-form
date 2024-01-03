@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Form POC</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f4f4f4; /* Set a bright background color */
+      font-family: 'Arial', sans-serif;
+    }
+
+    .container {
+      margin-top: 50px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+      padding: 20px;
+      background-color: #ffffff; /* White background for the form container */
+      border-radius: 8px; /* Add some rounded corners */
+    }
+
+    /* Style for heading */
+    h1 {
+      color: #007bff; /* Bootstrap primary color */
+      text-align: center;
+    }
+
+    /* Style for form group wrapper */
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    /* Style for text input */
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="checkbox"],
+    textarea,
+    input[type="range"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      border: 1px solid #ced4da;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    /* Style for hover effect on form elements */
+    input:hover,
+    textarea:hover,
+    select:hover {
+      border-color: #6c757d;
+    }
+
+    /* Style for submit button */
+    input[type="submit"] {
+      background-color: #007bff; /* Bootstrap primary color */
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease; /* Add smooth transition */
+    }
+
+    /* Style for hover effect on submit button */
+    input[type="submit"]:hover {
+      background-color: #0056b3; /* Darker shade on hover */
+    }
+
+    /* Add any additional styling based on your preferences */
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Proof of Concept (POC)</h1>
+    <div id="form-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
