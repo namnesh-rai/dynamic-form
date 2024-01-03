@@ -1,0 +1,55 @@
+[
+    {
+      "type": "text",
+      "label": "Username",
+      "name": "username"
+    },
+    {
+      "type": "checkbox",
+      "label": "checkbox",
+      "name": "checkbox"
+    },
+    {
+      "type": "password",
+      "label": "Password",
+      "name": "password"
+    },
+    {
+      "type": "email",
+      "label": "Email",
+      "name": "email"
+    },
+    {
+      "formtext": [
+        {
+          "type": "text",
+          "label": "first name",
+          "enabled": true
+        },
+        {
+          "type": "text",
+          "label": "last name",
+          "enabled": true
+        }
+      ],
+      "formpara": [
+        {
+          "type": "textarea",
+          "value": "",
+          "label": "welcome note",
+          "enabled": true
+        }
+      ],
+      "formrange": [
+        {
+          "type": "range",
+          "label": "Enter number of working days",
+          "value": 5,
+          "min": 1,
+          "max": 10,
+          "enabled": true
+        }
+      ]
+    }
+  ]
+  
